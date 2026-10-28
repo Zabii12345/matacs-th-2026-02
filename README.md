@@ -1,7 +1,9 @@
 # MATACS Associate Software Developer Assessment
 
-**Candidate:** Muhammad Zohaib Ahmed
+**Candidate:** Muhammad Zohaib Ahmed 
+
 **Reference:** MATACS-TH-2026-02
+
 **Time spent:** 37 minutes
 
 ## Overview
@@ -17,4 +19,5 @@ A design for an AI-assisted proposal triage tool. AI extracts quoted evidence fr
 
 ## AI tool use
 
-I used Claude [and ChatGPT, only if true] to draft the architecture, prompts, write-up and diagram, and I reviewed each output. The diagram was rendered with Graphviz. I checked the ranking scores by recalculating them by hand. **[Your real disagreement or correction goes here: what the AI proposed, what you changed or rejected, and why.]**
+I used Claude to draft the architecture, prompts, write-up and diagram, and I reviewed each output. The diagram was rendered with Graphviz. I checked the ranking scores by recalculating them by hand. 
+**Initially, the AI suggested treating all proposals with missing or uncertain information in the same way. I disagreed with this approach because missing evidence does not always mean a proposal fails a mandatory requirement. For example, Proposal D does not specify a completion timeline, so I would flag it for clarification rather than automatically declare it ineligible. This makes the evaluation fairer and ensures that mandatory failures are distinguished from missing information that requires human review.**
